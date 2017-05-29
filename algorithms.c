@@ -34,7 +34,6 @@ int strLength(char strFeed[]){
 void puncStrip(char stringFeed[]){
 	int i = 0, j = 0;
 	while(stringFeed[i] != '\0') {
-	
 		if ((stringFeed[i] >= ASCII_65) && (stringFeed[i] <= ASCII_90)) {
 			stringFeed[j] = stringFeed[i] + UPPER_TO_LOWER;
 			j++;
